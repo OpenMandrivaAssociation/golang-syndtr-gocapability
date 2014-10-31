@@ -14,6 +14,7 @@ Url:		https://%{import_path}
 Source0:        https://%{import_path}/archive/%{prerelease}.tar.gz
 Provides:       golang(%{import_path}) = %{version}-%{release}
 Provides:	golang(%{import_path}/capability) = %{version}-%{release}
+BuildRequires:	golang
 
 %description
 Utilities for manipulating POSIX capabilities in Go
