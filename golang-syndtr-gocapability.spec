@@ -7,7 +7,7 @@
 Summary:	Utilities for manipulating POSIX capabilities in Go
 Name:		golang-syndtr-gocapability
 Version:	0.1.git%{shortcommit}
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Other
 Url:		https://%{import_path}
